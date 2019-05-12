@@ -1,0 +1,6 @@
+.footer-home {
+    background: var(--main-bg-color);
+    padding: .8em;
+    color: #ffffff;
+    text-align: center;
+}

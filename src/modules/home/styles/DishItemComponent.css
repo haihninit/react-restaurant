@@ -1,0 +1,22 @@
+.dish-title {
+    font-weight: bold;
+}
+.dish-card-body {
+    padding: .8rem;
+}
+.dish-price {
+    color: var(--main-bg-color);
+}
+.dish-description {
+    font-size: .8em;
+}
+.dish-btn {
+    background: var(--dark-main-bg-color);
+    border-color: var(--dark-main-bg-color);
+    width: 100%;
+}
+.dish-btn:hover {
+    background: var(--dark-main-bg-color);
+    border-color: var(--dark-main-bg-color);
+}
+

@@ -1,0 +1,122 @@
+
+.menu-container {
+  margin-top: 25px;
+}
+
+.dish-item {
+  padding: 5px;
+}
+
+.dish-menu {
+  display: grid;
+  grid-template-rows: 1fr;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.dish-menu .menu-header {
+  background: var(--main-bg-color);
+  border-radius: 5px 5px 0 0;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.dish-menu .menu-body {
+  background: var(--main-bg-color);
+  padding: 5px;
+}
+
+.dish-menu .menu-item {
+  background: #ffffff;
+  border: 1px solid var(--main-bg-color);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.dish-menu .menu-item:hover {
+  background: var(--main-bg-color);
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.menu-filter {
+  padding: 5px;
+}
+
+.menu-filter button {
+  background: none;
+  color: var(--main-bg-color);
+  border-color: var(--main-bg-color);
+}
+
+.menu-filter button:hover {
+  background: var(--main-bg-color) !important;
+  color: #ffffff;
+  border-color: var(--main-bg-color) !important;
+}
+
+.menu-filter button:focus {
+  background: var(--main-bg-color) !important;
+  color: #ffffff;
+  box-shadow: none !important;
+  border-color: var(--main-bg-color) !important;
+}
+
+.menu-filter .item-menu-filter {
+  margin-right: 5px;
+}
+.menu-pagination {
+  display: grid;
+  justify-content: center;
+}
+.menu-pagination .page-item.active .page-link {
+  background: var(--main-bg-color)!important;
+  border-color: var(--main-bg-color);
+}
+.menu-pagination .page-link{
+  color: var(--main-bg-color);
+}
+@import "~bootstrap/scss/_functions.scss";
+@import "~bootstrap/scss/_variables.scss";
+@import "~bootstrap/scss/mixins/_breakpoints.scss";
+
+@include media-breakpoint-up(xs) {
+  .menu-container {
+    margin-top: 10px;
+  }
+  .menu-filter {
+    margin-left: 0;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .menu-container {
+    margin-top: 10px;
+  }
+  .menu-filter {
+    margin-left: 0;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .menu-filter {
+    margin-left: -15px;
+  }
+  .menu-filter {
+    margin-left: -15px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .dish-menu {
+    margin-left: 15px;
+  }
+  .menu-container {
+    margin-top: 25px;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+
+}

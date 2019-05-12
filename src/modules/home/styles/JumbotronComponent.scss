@@ -1,0 +1,61 @@
+.jumbotron-home {
+    margin-top: 56px;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-image: url(https://www.nyeat.co.uk/wp-content/uploads/2018/08/lobster-steak-restaurant-london.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jumbotron-brand-name {
+    color: var(--main-bg-color);
+    text-shadow: 1px 1px var(--white);
+}
+.jumbotron-hr {
+    border-top: 1px solid rgba(255,255,255,.4);
+}
+.jumbotron-btn {
+    background: var(--main-bg-color);
+    border-color: var(--main-bg-color);
+}
+.jumbotron-btn:hover {
+    background: var(--dark-main-bg-color);
+    border-color: var(--dark-main-bg-color);
+}
+
+.jumbotron-lead {
+    color: #ffffff;
+    font-weight: 500;
+    text-shadow: 2px 1px 2px #000000;
+}
+.jumbotron-contact{
+    color: #ffffff;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px #000000;
+}
+@import "~bootstrap/scss/_functions.scss";
+@import "~bootstrap/scss/_variables.scss";
+@import "~bootstrap/scss/mixins/_breakpoints.scss";
+
+@include media-breakpoint-up(xs) {
+    .jumbotron-lead {
+        font-size: 0.8em;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+
+}
+
+@include media-breakpoint-up(md) {
+    .jumbotron-lead {font-size: 1em;}
+}
+
+@include media-breakpoint-up(lg) {
+
+}
+
+@include media-breakpoint-up(xl) {
+
+}
